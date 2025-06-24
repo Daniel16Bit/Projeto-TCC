@@ -281,7 +281,7 @@ export default function Register() {
           {/* Checkbox de aceite */}
           <TouchableOpacity
             onPress={() => setAcceptedPolicy(!acceptedPolicy)}
-            style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 16 }}
+            style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 16, flexWrap: 'wrap', maxWidth: '100%' }}
             activeOpacity={0.7}
           >
             <View style={{
@@ -299,7 +299,7 @@ export default function Register() {
                 <MaterialIcons name="check" size={18} color="#fff" />
               )}
             </View>
-            <Text style={{ color: '#333' }}>Sim, concordo com a Política de Privacidade</Text>
+            <Text style={{ color: '#333', flexShrink: 1, flexWrap: 'wrap' }}>Sim, concordo com a Política de Privacidade</Text>
           </TouchableOpacity>
           {/* Botão de cadastro */}
           <TouchableOpacity

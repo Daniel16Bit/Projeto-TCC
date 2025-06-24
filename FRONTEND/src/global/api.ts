@@ -15,8 +15,8 @@
 // ===========================================================================
 
 // ======== PADRÃO: FUNCIONA NO EMULADOR ANDROID ========
-const ANDROID_EMULATOR_API = "http://10.0.2.2:3001/api";
-const MOCK_EMULATOR = "http://10.0.2.2:3000";
+const ANDROID_EMULATOR_API = "http://192.168.2.162:3001/api";
+const MOCK_EMULATOR = "http://192.168.2.162:3000";
 
 export function getApiUrl() {
   // Sempre retorna o backend para o emulador Android

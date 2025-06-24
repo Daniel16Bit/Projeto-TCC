@@ -3,6 +3,7 @@ import { View, Text, ScrollView } from 'react-native';
 import { useRouter } from 'expo-router';
 import { styles } from '../../../src/pages/home/servicos/style';
 import BtnCriar from '@/src/components/criarServi/btnCriar';
+import { getApiUrl } from '../../../src/global/api';
 
 
 interface Servico {
@@ -17,7 +18,7 @@ export default function Servicos() {
 
   async function buscarServicos() {
     try {
-      const response = await fetch('http://10.0.2.2:3001/api/servicos');
+      const response = await fetch(`${getApiUrl()}/servicos`);
       const data = await response.json();
       setServicos(data);
     } catch (error) {
