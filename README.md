@@ -113,7 +113,7 @@ projeto/
 | Nome       | GitHub                                   | Responsabilidade                            |
 |------------|-------------------------------------------|----------------------------------------------|
 | **Lucas**  | [@zegotas](https://github.com/zegotas)  | Frontend (React Native & criação de funções)                      |
-| **Marcos** | [@DanielAndLeinad](https://github.com/DanielAndLeinad)| Backend, revisão de bugs, revisão funções            |
+| **Marcos** | [@Daniel16bit](https://github.com/DanielAndLeinad)| Backend, revisão de bugs, revisão funções            |
 | **Flaviane** | [@flavianea59](Github.com/flavianea59)| Documentação                                 |
 
 
